@@ -14,7 +14,7 @@ checkButton.addEventListener("click", function verifyTotalBillAndCashAmount() {
     var returningAmount = (totalCashGiven.value - totalBillAmount.value);
     errorDisplay.style.display = "none";
     if (totalBillAmount.value > 0) {
-        if (totalCashGiven.value >= totalBillAmount.value) {
+        if (+totalCashGiven.value >= +totalBillAmount.value) {
             for (i = 0; i < 9; i++) {
 
                 var noOfNotes = (Math.trunc(returningAmount / notes[i]));
