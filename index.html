@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Cash Register App</title>
+    <link rel="stylesheet"
+          href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="heading">Cash Register App</h1>
+        <h4 id="head-des">Enter the bill amount and cash given by the customer and know minimum number of notes to
+            return.</h4>
+
+        <label for="total-bill-amount"
+               class="label">Total Bill Amount:</label>
+        <input type="number"
+               name="total-bill-amount"
+               id="total-bill-amount"><br>
+
+        <label for="total-cash-given"
+               class="label">Total Cash Given:</label>
+        <input type="number"
+               name="total-cash-given"
+               id="total-cash-given"><br>
+
+        <p id="error-display"></p>
+
+        <button id="check">Check</button>
+
+        <table class="result-table">
+            <caption>
+                Return Change
+            </caption>
+            <tr>
+                <th>No. of Notes</th>
+                <td id="table-1"></td>
+                <td id="table-2"></td>
+                <td id="table-3"></td>
+                <td id="table-4"></td>
+                <td id="table-5"></td>
+                <td id="table-6"></td>
+                <td id="table-7"></td>
+                <td id="table-8"></td>
+                <td id="table-9"></td>
+            </tr>
+            <tr>
+                <th>Note</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>200</td>
+                <td>100</td>
+                <td>50</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

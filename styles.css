@@ -1,0 +1,68 @@
+#total-bill-amount{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 900;
+}
+
+body{
+    font-weight: 900;
+}
+
+#total-cash-given{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font: bolder;
+    font-weight: 900;
+}
+
+#check{
+    margin-top: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: cyan;
+    box-shadow: -2px 2px 4px black;
+}
+
+#check:hover{
+    padding: 0.5rem 1.25rem 0.5rem 1.25rem;
+    box-shadow: 2px 2px 4px black;
+}
+
+#heading{
+    margin-top: 0;
+}
+
+table{
+    border: 2px solid black;
+    text-align: center;
+    align-self: center;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+td{
+    border: 2px solid black;
+}
+
+th{
+    border: 2px solid black;
+}
+
+.container{
+    justify-items: center;
+    align-self: center;
+    margin: auto;
+    text-align: center;
+    margin: auto;
+    padding: 10vh 5vw 10vh 5vw;
+    background-color: cadetblue;
+    width: 50vw;
+    box-shadow: -10px 10px 10px black;
+}
+
+.label{
+    font-weight: 900;
+}
+
+#error-display{
+    font-weight: 900;
+}
